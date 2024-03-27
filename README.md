@@ -1,0 +1,2 @@
+# DotnetConsoleTemplate
+Console Template Projects
