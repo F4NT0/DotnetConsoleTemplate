@@ -8,43 +8,31 @@
 dotnet new sln --name ConsoleTemplate
 ```
 
-2. Crie uma Biblioteca de classe (Class Library) dentro da Solution:
-
-```csharp
-dotnet new classlib -o OfficialProject
-```
-
-3. Devemos adicionar a biblioteca à nossa solution:
-
-```csharp
-dotnet sln add OfficialProject/OfficialProject.csproj
-```
-
-4. Após adicionar o projeto na Solution, rode o comando de build:
-
-```csharp
-dotnet build
-```
-
-5. Agora crie um aplicativo de console onde se encontra a Solution com o seguinte comando:
+1. Agora crie um aplicativo de console onde se encontra a Solution com o seguinte comando:
 
 ```csharp
 dotnet new console -o ProjectConsole
 ```
 
-6. Adicione o projeto console criado no solution:
+2. Adicione o projeto console criado no solution:
 
 ```csharp
 dotnet sln add ProjectConsole/ProjectConsole.csproj
 ```
 
-7. Agora devemos conectar a referencia da biblioteca no nosso projeto console:
+3. Antes de rodar rode o seguinte comando para limpar qualquer lixo:
 
 ```csharp
-dotnet add  ProjectConsole/ProjectConsole.csproj reference OfficialProject/OfficialProject.csproj
+dotnet clean
 ```
 
-8. Agora podemos rodar o nosso projeto, colocando código na biblioteca e código no projeto:
+4. Depois de rodado o comando acima, rode o seguinte comando para buildar o projeto:
+
+```csharp
+dotnet build2
+```
+
+5. Agora podemos rodar o nosso projeto:
 
 ```csharp
 dotnet run --project ProjectConsole/ProjectConsole.csproj

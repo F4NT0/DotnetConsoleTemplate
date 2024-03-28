@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0a1ee2a4-72eb-4922-ad5e-3754653c64fa" name="Gabriel_Stundner@W11700YYK3 2024-03-28 19:53:43" runUser="AMERICAS\Gabriel_Stundner" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-03-28T19:53:43.5264764-03:00" queuing="2024-03-28T19:53:43.5264766-03:00" start="2024-03-28T19:53:42.8724986-03:00" finish="2024-03-28T19:53:43.5318105-03:00" />
+  <TestSettings name="default" id="d05058b9-3879-4f46-bb03-8f45502a6f76">
+    <Deployment runDeploymentRoot="Gabriel_Stundner_W11700YYK3_2024-03-28_19_53_43" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="292eca78-53d8-4a54-b137-0de16c244368" testId="bfc1973b-0e9f-bbba-34ec-0c9b9c4f25df" testName="TestHelloWorld" computerName="W11700YYK3" duration="00:00:00.0030153" startTime="2024-03-28T19:53:43.3887232-03:00" endTime="2024-03-28T19:53:43.4039356-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="292eca78-53d8-4a54-b137-0de16c244368" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestHelloWorld" storage="c:\users\gabriel_stundner\source\repos\github\dotnetconsoletemplate\projectconsoletest\bin\debug\net8.0\projectconsoletest.dll" id="bfc1973b-0e9f-bbba-34ec-0c9b9c4f25df">
+      <Execution id="292eca78-53d8-4a54-b137-0de16c244368" />
+      <TestMethod codeBase="C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\bin\Debug\net8.0\ProjectConsoleTest.dll" adapterTypeName="executor://mstestadapter/v2" className="ProjectConsoleTest.UnitTest1" name="TestHelloWorld" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bfc1973b-0e9f-bbba-34ec-0c9b9c4f25df" executionId="292eca78-53d8-4a54-b137-0de16c244368" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

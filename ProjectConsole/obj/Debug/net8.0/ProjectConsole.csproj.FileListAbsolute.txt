@@ -3,15 +3,11 @@ C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConso
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\bin\Debug\net8.0\ProjectConsole.runtimeconfig.json
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\bin\Debug\net8.0\ProjectConsole.dll
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\bin\Debug\net8.0\ProjectConsole.pdb
-C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\bin\Debug\net8.0\OfficialProject.dll
-C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\bin\Debug\net8.0\OfficialProject.pdb
-C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.csproj.AssemblyReference.cache
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.AssemblyInfoInputs.cache
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.AssemblyInfo.cs
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.sourcelink.json
-C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.csproj.CopyComplete
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.dll
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\refint\ProjectConsole.dll
 C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsole\obj\Debug\net8.0\ProjectConsole.pdb
