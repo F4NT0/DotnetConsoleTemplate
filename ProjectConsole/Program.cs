@@ -3,7 +3,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        string test = Program.GetHelloWorld();
+        string test = GetHelloWorld();
         Console.WriteLine(test);
     }
 
