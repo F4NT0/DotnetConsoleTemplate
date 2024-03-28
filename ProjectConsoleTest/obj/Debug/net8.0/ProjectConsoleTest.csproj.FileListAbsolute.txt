@@ -1,0 +1,7 @@
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\obj\Debug\net8.0\ProjectConsoleTest.csproj.AssemblyReference.cache
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\obj\Debug\net8.0\ProjectConsoleTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\obj\Debug\net8.0\ProjectConsoleTest.AssemblyInfoInputs.cache
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\obj\Debug\net8.0\ProjectConsoleTest.AssemblyInfo.cs
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\obj\Debug\net8.0\ProjectConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\obj\Debug\net8.0\ProjectConsoleTest.sourcelink.json
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\ProjectConsoleTest\bin\Debug\net8.0\CoverletSourceRootsMapping_ProjectConsoleTest

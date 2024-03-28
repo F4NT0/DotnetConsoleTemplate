@@ -1,0 +1,12 @@
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\bin\Debug\net8.0\OfficialProject.deps.json
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\bin\Debug\net8.0\OfficialProject.dll
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\bin\Debug\net8.0\OfficialProject.pdb
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.AssemblyInfoInputs.cache
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.AssemblyInfo.cs
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.sourcelink.json
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.dll
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\refint\OfficialProject.dll
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\OfficialProject.pdb
+C:\Users\Gabriel_Stundner\source\repos\GITHUB\DotnetConsoleTemplate\OfficialProject\obj\Debug\net8.0\ref\OfficialProject.dll

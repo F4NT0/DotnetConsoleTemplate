@@ -1,99 +1,79 @@
-# Exemplos de projetos console em C#
+# Criando um projeto console com testes
 
-Projetos .NET do tipo console são projetos simples para podermos testar projetos.
+## Criando o projeto console
 
-## Criando um projeto console pelo terminal
-
-Após instalado o .NET no seu computador, rode o seguinte comando no terminal onde você quiser:
+1. Crie uma solution pelo console com o seguinte comando:
 
 ```csharp
-dotnet new console -n ConsoleTemplate
+dotnet new sln --name ConsoleTemplate
 ```
 
-### Rodando o projeto
-
-Acesse o novo diretório criado e rode o seguinte comando no terminal:
+2. Crie uma Biblioteca de classe (Class Library) dentro da Solution:
 
 ```csharp
-dotnet run
+dotnet new classlib -o OfficialProject
 ```
 
-### Limpando projeto antes de commitar
-
-Antes de commitar qualquer alteração deve rodar o seguinte comando no terminal:
+3. Devemos adicionar a biblioteca à nossa solution:
 
 ```csharp
-dotnet clean
+dotnet sln add OfficialProject/OfficialProject.csproj
 ```
 
-Esse comando  limpa todos os arquivos gerados durante a compilação.
-
-### Compilando o projeto  sem executá-lo
-
-Para compilar o projeto sem executa-lo utilize o seguinte comando:
+4. Após adicionar o projeto na Solution, rode o comando de build:
 
 ```csharp
 dotnet build
 ```
 
-### Estrutura base  de um projeto Console
-
-O código base de uma classe em C# é como abaixo:
+5. Agora crie um aplicativo de console onde se encontra a Solution com o seguinte comando:
 
 ```csharp
-
-namespace ConsoleTemplate
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Adicione o código aqui
-        }
-    }
-}
+dotnet new console -o ProjectConsole
 ```
 
----
-
-## Criando projeto de testes unitários
-
-Devemos adicionar ao nosso projeto um pacote de testes unitários chamado `xunit`
+6. Adicione o projeto console criado no solution:
 
 ```csharp
-dotnet add package xunit
+dotnet sln add ProjectConsole/ProjectConsole.csproj
 ```
 
-Depois devemos criar um projeto de teste no mesmo nível do nosso projeto original.
-
-Devemos rodar o seguinte comando, não esquecendo que o nome do programa deve ser o mesmo:
+7. Agora devemos conectar a referencia da biblioteca no nosso projeto console:
 
 ```csharp
-dotnet new xunit -n ConsoleTemplate.Tests
+dotnet add  ProjectConsole/ProjectConsole.csproj reference OfficialProject/OfficialProject.csproj
 ```
 
-Devemos adicionar no nosso novo projeto de teste uma conexão com o nosso projeto console no arquivo `NomePrograma.Tests.csproj` com o caminho ao `csproj` para o nosso projeto principal:
+8. Agora podemos rodar o nosso projeto, colocando código na biblioteca e código no projeto:
 
 ```csharp
-<ItemGroup>
-   <ProjectReference Include="..\ConsoleTemplate\ConsoleTemplate.csproj" />
-</ItemGroup>
+dotnet run --project ProjectConsole/ProjectConsole.csproj
 ```
 
-### Criando uma classe de teste
+## Criando o projeto de console
 
-### Rodando os testes
-
-Primeiro devemos buildar o nosso projeto com o seguinte comando:
+1. No mesmo local onde se encontra o projeto e a biblioteca criado rode o seguinte comando:
 
 ```csharp
-dotnet build
+dotnet new mstest -o ProjectConsoleTest
 ```
 
-No terminal rode o seguinte comando para rodar os testes:
+2. Agora devemos adicionar a referência do projeto de teste criado em nosso Solution:
 
 ```csharp
-dotnet test ConsoleTemplate.Tests.dll
+dotnet sln add ProjectConsoleTest/ProjectConsoleTest.csproj
 ```
 
+3. Agora devemos criar a conexão do nosso projeto de teste com o projeto oficial que criamos:
 
+```csharp
+dotnet add ProjectConsoleTest/ProjectConsoleTest.csproj reference ProjectConsole/ProjectConsole.csproj
+```
+
+4. Crie os testes que deseja e os códigos que deseja.
+
+5. Para rodar os testes rode o seguinte comando:
+
+```csharp
+dotnet test ProjectConsoleTest/ProjectConsoleTest.csproj
+```
