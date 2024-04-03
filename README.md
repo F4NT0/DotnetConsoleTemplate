@@ -29,7 +29,7 @@ dotnet clean
 4. Depois de rodado o comando acima, rode o seguinte comando para buildar o projeto:
 
 ```csharp
-dotnet build2
+dotnet build
 ```
 
 5. Agora podemos rodar o nosso projeto:
@@ -38,15 +38,14 @@ dotnet build2
 dotnet run --project ProjectConsole/ProjectConsole.csproj
 ```
 
-## Criando o projeto de console
+## Criando o projeto de console1. No mesmo local onde se encontra o projeto e a biblioteca criado rode o seguinte comando:
 
-1. No mesmo local onde se encontra o projeto e a biblioteca criado rode o seguinte comando:
 
 ```csharp
 dotnet new mstest -o ProjectConsoleTest
 ```
 
-2. Agora devemos adicionar a referência do projeto de teste criado em nosso Solution:
+1. Agora devemos adicionar a referência do projeto de teste criado em nosso Solution:
 
 ```csharp
 dotnet sln add ProjectConsoleTest/ProjectConsoleTest.csproj
